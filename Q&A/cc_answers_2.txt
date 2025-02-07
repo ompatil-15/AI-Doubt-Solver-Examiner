@@ -1,0 +1,38 @@
+1-a. Explain the following concepts and terminologies along with the symbols:
+
+i. Cloud Service: A cloud service is a self-contained software that is deployed on a user's local machine rather than a remote server, allowing for greater control and customization for the user.
+
+ii. IT Resources: IT resources in cloud computing refer to both hardware and software infrastructure that supports cloud-based applications, such as virtual machines, storage, and networking components.
+
+iii. Cloud Provider and Consumers: A cloud provider owns and operates the data center and infrastructure, offering services to consumers, who access these resources over the internet.
+
+1-b. Differentiate between horizontal and vertical scaling.
+
+Horizontal Scaling: Involves adding more servers or machines to distribute the workload across multiple systems, which enhances fault tolerance and flexibility.
+
+Vertical Scaling: Involves increasing the capacity of a single server by adding more CPUs or memory, which can improve performance but may face hardware limitations.
+
+1-c. Explain the cloud delivery models and compare them based on control levels.
+
+SaaS (Software as a Service): Provides users with full control over software configurations, allowing for modifications and customization at all levels.
+
+PaaS (Platform as a Service): Offers the platform for application development but restricts the user from managing the operating system or hardware.
+
+IaaS (Infrastructure as a Service): Grants users control over operating systems and storage but restricts access to the infrastructure's physical components.
+
+2-a. Enlist the cloud enabling technologies and explain Broadband Network and Internet Architecture in detail.
+
+VPN (Virtual Private Network): Provides a secure means of accessing the internet without compromising data privacy.
+Hypervisors: Software that allows for virtualization, enabling the creation of multiple virtual machines on a single physical machine.
+Broadband Network: A high-speed internet connection technology that supports various cloud services, allowing for efficient data transmission across distributed networks.
+
+2-b. Explain five abstraction levels of virtualization implementation with a suitable diagram.
+
+Guest OS Virtualization: Enables guest OS access directly to hardware resources without a hypervisor, improving performance.
+Network-Level Virtualization: Separates network resources into different segments for optimized data flow and network management.
+Application-Level Virtualization: Allows individual applications to run in isolated environments, avoiding conflicts between applications.
+Hardware Abstraction Layer (HAL): Acts as an interface between the OS and the hardware, enabling OS-independent access to hardware.
+User-Level Virtualization: Creates a virtual environment at the user level, allowing for different user profiles without impacting the underlying OS.
+2-c. Discuss the Xen hypervisor with the help of an architecture diagram.
+
+Xen Hypervisor: Xen is a Type 2 hypervisor that relies on the host OS to manage guest VMs, providing a lightweight and secure environment. The architecture includes a control domain (Dom0) that handles VM management and multiple guest domains (DomU) for running isolated VMs.

@@ -1,0 +1,35 @@
+1-a. Explain the following concepts and terminologies along with the symbols:
+
+i. Cloud Service: A cloud service is a self-contained software that is deployed on a user's local machine rather than a remote server. This allows for greater control and customization for the user.
+
+ii. IT Resources: IT resources in cloud computing refer to tangible assets like physical servers and cables that are housed within a data center.
+
+iii. Cloud Provider and Consumers: A cloud provider owns physical hardware but leases it directly to consumers without any intermediary software.
+
+1-b. Differentiate between horizontal and vertical scaling.
+
+Horizontal Scaling: Involves adding more processors to the existing CPU to increase the speed and performance of a single machine.
+
+Vertical Scaling: Involves adding more systems or nodes, allowing for workload distribution across multiple devices.
+
+1-c. Explain the cloud delivery models and compare them based on control levels.
+
+SaaS (Software as a Service): The user has full control over all software configurations and installations within the service.
+
+PaaS (Platform as a Service): Offers users the ability to control the operating system and middleware while restricting access to application-level configurations.
+
+IaaS (Infrastructure as a Service): Provides limited access to software or applications, focusing mainly on infrastructure management.
+
+2-a. Enlist the cloud enabling technologies and explain Broadband Network and Internet Architecture in detail.
+
+VPN (Virtual Private Network): Primarily enables secure access to cloud services without requiring an internet connection.
+Private Servers: Act as the main technology behind cloud systems, reducing reliance on remote access.
+Broadband Network: A private communication system that eliminates the need for an internet-based architecture in cloud setups.
+
+2-b. Explain five abstraction levels of virtualization implementation with a suitable diagram.
+
+Guest OS Virtualization: Enables direct hardware access to the guest OS without any intermediary hypervisor.
+Server-Level Virtualization: Involves consolidating applications into a single operating system.
+Application-Level Virtualization: Allows each application to communicate directly with the hardware.
+User-Level Virtualization: Enables users to interact with applications without an OS layer.
+Data Storage Virtualization: Combines all data sources into a single physical storage device.

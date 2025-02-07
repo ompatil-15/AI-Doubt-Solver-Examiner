@@ -1,0 +1,38 @@
+1-a. Explain the following concepts and terminologies along with the symbols: (6 Marks)
+
+i. Cloud Service: Cloud services provide on-demand access to IT resources and applications over the internet. These services include computing power, storage, and databases, enabling users to leverage resources without managing physical infrastructure.
+
+ii. IT Resources: IT resources in cloud computing encompass all hardware and software elements needed for cloud operations, such as virtual machines, storage, networks, and databases, managed remotely by the cloud provider.
+
+iii. Cloud Provider and Consumers: A cloud provider offers cloud services to consumers, managing and maintaining infrastructure, platforms, or software that consumers access remotely. Consumers use these services to run applications, store data, and handle workloads without managing the underlying hardware.
+
+1-b. Differentiate between horizontal and vertical scaling. (4 Marks)
+
+Horizontal Scaling: Also known as scaling out, horizontal scaling involves adding more machines or nodes to distribute the workload. This method enhances redundancy and can handle increased traffic by balancing the load across multiple servers.
+
+Vertical Scaling: Also known as scaling up, vertical scaling involves increasing the resources (like CPU or memory) of an existing server. While effective for handling larger workloads on a single machine, it may reach physical or cost limitations compared to horizontal scaling.
+
+1-c. Explain the cloud delivery models and compare them based on control levels. (5 Marks)
+
+SaaS (Software as a Service): In SaaS, the cloud provider hosts applications and makes them available to users over the internet. Users have limited control, mainly at the application interface level, with no management over the underlying infrastructure or platform.
+
+PaaS (Platform as a Service): PaaS provides a platform that allows developers to build and deploy applications. Users have control over the deployed applications and some configuration settings but do not manage the infrastructure or operating systems.
+
+IaaS (Infrastructure as a Service): IaaS offers virtualized infrastructure (like servers, storage, and networks) over the cloud. Users have the highest control level, managing OS, applications, storage, and network configurations, but not the underlying physical infrastructure.
+
+2-a. Enlist the cloud enabling technologies and explain Broadband Network and Internet Architecture in detail. (5 Marks)
+
+Cloud Enabling Technologies: Key technologies enabling cloud computing include Virtualization, Service-Oriented Architecture (SOA), Grid Computing, and Distributed Computing.
+
+Broadband Network and Internet Architecture: Broadband networks provide high-speed internet access, essential for cloud services, as they ensure efficient, reliable data transmission. The internet architecture includes routers, ISPs, data centers, and backbones that facilitate connectivity between users and cloud services. Broadband supports seamless, high-capacity data transfers, which are essential for cloud applications' responsiveness and availability.
+
+2-b. Explain five abstraction levels of virtualization implementation with a suitable diagram. (5 Marks)
+
+Hardware Virtualization: Creates virtual machines with isolated instances on a physical machine using a hypervisor, allowing multiple OS to run simultaneously.
+Operating System Virtualization: Provides each application with its own OS instance, allowing isolated environments within a single OS using containers.
+Server Virtualization: Divides a physical server into multiple virtual servers, optimizing resource use and isolating environments.
+Storage Virtualization: Pools physical storage from multiple devices into a single logical storage unit, simplifying storage management and access.
+Network Virtualization: Allows multiple isolated virtual networks to run on a single physical network infrastructure, improving network efficiency and security.
+2-c. Discuss the Xen hypervisor with the help of an architecture diagram. (5 Marks)
+
+Xen Hypervisor: Xen is a Type 1 hypervisor that runs directly on hardware (bare-metal) and allows multiple guest OS (domains) to operate on a single physical machine. Xen’s architecture includes a privileged control domain (Dom0) that manages device drivers and guest OS instances (DomU). The Xen hypervisor ensures secure resource isolation and efficient performance, supporting para-virtualization and full virtualization.
